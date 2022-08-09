@@ -1,15 +1,11 @@
 class Solution:
     def __init__(self, size):
-"""Inits Solution with stack, queue, size, top, front and rear.
-Arguments:
-size: An integer to set the size of stack and queue.
-"""
-self.stack = []
-self.queue = []
-self.size = size
-self.top = -1
-self.rear = -1
-self.front = -1
+        self.stack = []
+        self.queue = []
+        self.size = size
+        self.top = -1
+        self.rear = -1
+        self.front = -1
 
     def is_stack_empty(self):
         if self.top == -1:
