@@ -18,6 +18,7 @@ class Solution:
             return True
         else:
             return False
+        
     def is_stack_full(self):
         if self.size == len(self.stack):
             return True
@@ -76,7 +77,7 @@ for index in range(length_of_text):
     if solution.pop_character() != solution.dequeue_character():
         is_palindrome = False
         break
-    if is_palindrome:
-        print("The word, " + text + ", is a palindrome.")
-    else:
-        print("The word, " + text + ", is not a palindrome.")
+if is_palindrome:
+    print("The word, " + text + ", is a palindrome.")
+else:
+    print("The word, " + text + ", is not a palindrome.")
