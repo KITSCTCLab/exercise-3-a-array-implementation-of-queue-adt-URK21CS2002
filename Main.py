@@ -8,8 +8,6 @@ class Solution:
           rear: An integer which denotes the index of the element at the rear of the queue.
           size: An integer which represents the size of stack and queue.
       """
-
-
     def _init_(self, size):
         """Inits Solution with stack, queue, size, top, front and rear.
         Arguments:
@@ -64,7 +62,6 @@ class Solution:
         Returns:
           True if it is full, else returns False.
         """
-        # Write your code here
         if self.size == len(self.queue):
             return True
         else:
